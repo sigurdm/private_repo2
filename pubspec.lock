@@ -189,7 +189,7 @@ packages:
       path: analysis
       ref: HEAD
       resolved-ref: cb74cc4c3150898a95adfe2d8ebcd50ec49c5be9
-      url: "git://github.com/sass/dart-sass"
+      url: "https://github.com/sass/dart-sass"
     source: git
     version: "0.0.0"
   shelf:
