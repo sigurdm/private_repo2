@@ -6,3 +6,6 @@ environment:
 dependencies:
   sass_analysis:
     git: {url: git://github.com/sass/dart-sass, path: analysis}
+
+dev_dependencies:
+  test:
