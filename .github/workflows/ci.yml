@@ -23,5 +23,5 @@ jobs:
         sdk: ${{ matrix.dart-channel }}
     - run: dart --version
 
-    - run: dart pub get
+    - run: dart pub get --verbose
     - run: dart pub run test -r expanded
