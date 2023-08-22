@@ -1,7 +1,13 @@
-name: b
-
+name: dependabot_testcase
 environment:
-  sdk: '^3.0.0'
-
+  sdk: '>=2.12.0 <3.0.0'
 dependencies:
-  http: 0.13.2
+  collection: ^1.14.13 # Locked to 1.14.13, can update with no unlock.
+  retry: ^2.0.0 # Can update with updated constraint, no further constraints.
+  protobuf: 1.1.4 # Can update with updated constraint, only together with fixnum.
+  fixnum: 0.10.11
+  path: 1.8.1 # Already at latest
+  http: "0.13.2" # < 0.13.3 has a security vulnerability: https://github.com/advisories/GHSA-4rgh-jx4f-qfcq
+
+dev_dependencies:
+  test: ^1.16.5
