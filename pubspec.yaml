@@ -1,8 +1,7 @@
 name: b
 
 environment:
-  sdk: '>=2.14.0 <=3.0.0'
+  sdk: '^3.0.0'
 
 dependencies:
-  collection: ^1.17.0
   http: 0.13.2
