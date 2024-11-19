@@ -1,4 +1,4 @@
-name: dependabot_testcase
+name: _dummy_pkg
 environment:
   sdk: '>=2.12.0 <3.0.0'
   flutter: ^1.0.0
@@ -6,3 +6,4 @@ dependencies:
   camera:
 dev_dependencies:
   test:
+version: 0.0.1
