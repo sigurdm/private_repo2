@@ -17,7 +17,7 @@ jobs:
   publish:
     permissions:
       id-token: write # Required for authentication using OIDC
-    uses: sigurdm/setup-dart/.github/workflows/publish.yml@d0452dca57c1a38da852cf85527b316cbc78f328
+    uses: dart-lang/setup-dart/.github/workflows/publish.yml@e630b99d28a3b71860378cafdc2a067c71107f94
     # with:
     #   working-directory: path/to/package/within/repository
     
